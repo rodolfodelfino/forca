@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Jogo da Forca</title>
+</head>
+<body>
+    <DIV id="princ">
+    <h1>Jogo da Forca</h1>
+    <div class="hangman">
+       <!-- manha  -->
+        <img src="img/forca0.png" alt="Forca">
+    </div>
+    <div class="word">
+        <!-- Aqui você pode exibir a palavra oculta e as letras adivinhadas -->
+        <p>Palavra: _ _ _ _ _ _</p>
+        <p>Dica Personagens do Livro de Mormon</p>
+    </div>
+    <div class="guess">
+        <label for="letter">Digite uma letra:</label>
+        <input type="text" id="letter" maxlength="1">
+        <button id="guessButton">Adivinhar</button>
+    </div>
+</DIV>
+    <script src="script.js"></script>
+</body>
+</html>

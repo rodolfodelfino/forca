@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(216, 216, 250);
+   }
+
+
+
+
+h1 {
+    color: #333;
+    font-size: 50px;
+}
+
+.hangman img {
+    /* Aqui você pode definir estilos para a imagem da forca */
+    max-width: 100%;
+}
+
+.word p {
+    font-size: 25px;
+    color: #333;
+}
+
+.guess {
+    margin-top: 30px;
+}
+
+label {
+    font-size: 25px;
+}
+
+input {
+    width: 30px;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    font-size: 25px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 40px; /* Reduz o tamanho da fonte do título */
+    }
+
+    .word p {
+        font-size: 20px; /* Reduz o tamanho da fonte da palavra oculta */
+    }
+
+    .guess {
+        margin-top: 20px; /* Reduz a margem superior para os elementos de adivinhação */
+    }
+
+    label {
+        font-size: 20px; /* Reduz o tamanho da fonte das labels */
+    }
+
+    .hangman img{
+    width: 330px;
+    height: auto;
+    }
+
+    input {
+        width: 20px; /* Reduz a largura do input para letras */
+        font-size: 20px; /* Reduz o tamanho da fonte do input */
+        margin: 0 5px; /* Reduz a margem do input */
+    }
+
+    button {
+        font-size: 20px; /* Reduz o tamanho da fonte do botão */
+        padding: 5px 8px; /* Reduz o preenchimento do botão */
+    }
+}
