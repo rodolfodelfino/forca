@@ -4,7 +4,7 @@ body {
     background-color: rgb(216, 216, 250);
    }
 
-   @media (max-width: 500px) {
+   @media (max-width: 300px) {
     h1 {
         font-size: 50px; /* Reduz o tamanho da fonte do título */
     }
