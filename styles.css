@@ -51,37 +51,3 @@ button {
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
-    h1 {
-        font-size: 50px; /* Reduz o tamanho da fonte do título */
-    }
-
-    .word p {
-        font-size: 30px; /* Reduz o tamanho da fonte da palavra oculta */
-    }
-
-    .guess {
-        margin-top: 5px; /* Reduz a margem superior para os elementos de adivinhação */
-    }
-
-    label {
-        font-size: 30px; /* Reduz o tamanho da fonte das labels */
-    }
-
-    .hangman img{
-    width: 300px;
-    height: auto;
-    }
-
-    input {
-        width: 30px; /* Reduz a largura do input para letras */
-        font-size: 30px; /* Reduz o tamanho da fonte do input */
-        margin: 0 10px; /* Reduz a margem do input */
-    }
-
-    button {
-        font-size: 30px; /* Reduz o tamanho da fonte do botão */
-        padding: 10px 10px; /* Reduz o preenchimento do botão */
-    }
-}
-
