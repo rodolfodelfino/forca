@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function () {
             setTimeout(function () {
                 victorySound.pause();
                 resetGame();
-            }, 15000);
+            }, 18000);
         } else if (guessesLeft === 0) {
             alert(`Você perdeu. A palavra era: ${wordToGuess}`);
             resetGame();
