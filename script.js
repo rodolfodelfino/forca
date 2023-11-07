@@ -138,8 +138,13 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         if (guessedWord.join("") === wordToGuess) {
+            const victorySound = document.getElementById("victorySound");
+            victorySound.play();
             alert(`Parabéns! Você venceu! A palavra era: ${wordToGuess}`);
-            resetGame();
+            setTimeout(function () {
+                victorySound.pause();
+                resetGame();
+            }, 15000);
         } else if (guessesLeft === 0) {
             alert(`Você perdeu. A palavra era: ${wordToGuess}`);
             resetGame();
