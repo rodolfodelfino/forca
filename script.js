@@ -6,8 +6,12 @@ document.addEventListener("DOMContentLoaded", function () {
     const themeSelect = document.getElementById("theme");
 
     const temas = [
-        ["Personagens do Livro de Mormon", ["NÉFI", "NEFI", "LAMA", "MORONI", "ALMA", "ETER", "HELAMA", "MORMON", "NEFI", "MORMON", "ETER", "ABINADI", "JAROM", "OMNI", "SARIA", "TEANCUM", "MORONI", "AMULOM", "AMALEQUE", "PACOR", "LAMONI", "LEI", "ZENIFE", "CORIANTUMR", "SAM", "ENOS", "JACO", "SIBLOM", "CORIANTON", "LEMUEL", "MORIANTON", "MORMON", "LAMONI", "SAMUEL",
-            "LABAO", "ZORA", "SARIA", "ISMAEL", "JOSE", "AMARON", "QUEMIS", "ABINADOM", "AMALEQUI", "ZEDEQUIAS", "BENJAMIM", "LIMI", "ZENIFE", "NOE", "AMULON", "GIDEAO", "ZEEZROM", "AMON", "CORIOR", "ZERAEMNA", "AMALIQUIAS", "PAORA", "TEANCUM", "ANTIPUS", "AMORON"
+        ["Personagens do Livro de Mormon", ["NÉFI", "NEFI", "LAMA", "MORONI", "ALMA", "ETER", "HELAMA", "MORMON", "NEFI",
+            "MORMON", "ETER", "ABINADI", "JAROM", "OMNI", "SARIA", "TEANCUM", "MORONI", "AMULOM", "AMALEQUE", "PACOR",
+            "LAMONI", "LEI", "ZENIFE", "CORIANTUMR", "SAM", "ENOS", "JACO", "SIBLOM", "CORIANTON", "LEMUEL", "MORIANTON",
+            "MORMON", "LAMONI", "SAMUEL", "LABAO", "ZORA", "SARIA", "ISMAEL", "JOSE", "AMARON", "QUEMIS", "ABINADOM", "AMALEQUI",
+            "ZEDEQUIAS", "BENJAMIM", "LIMI", "ZENIFE", "NOE", "AMULON", "GIDEAO", "ZEEZROM", "AMON", "CORIOR", "ZERAEMNA",
+            "AMALIQUIAS", "PAORA", "TEANCUM", "ANTIPUS", "AMORON", "JESUS"
         ]],
 
         ["Animais", ["LEAO", "TIGRE", "ELEFANTE", "GIRAFA", "RINOCERONTE", "HIPOPOTAMO", "CAVALO", "CACHORRO",
@@ -53,6 +57,24 @@ document.addEventListener("DOMContentLoaded", function () {
             "MACEDONIA", "MADAGASCAR", "MALASIA", "MALAUI", "MALDIVAS", "MALI", "MALTA", "MARROCOS", "MAURICIO",
             "MAURITANIA", "MEXICO", "MICRONESIA", "MOCAMBIQUE", "MOLDAVIA", "MONACO", "MONGOLIA", "MONTENEGRO", "NAMIBIA",
             "NAURU", "NEPAL", "NICARAGUA", "NIGER", "NIGERIA", "NORUEGA", "NOVA ZELANDIA", "OMA"
+        ]],
+
+        ["Frutas", [
+            "ABACATE", "ABACAXI", "ACAI", "ACEROLA", "AMEIXA", "AMORA", "BANANA", "CAJU", "CAQUI", "CARAMBOLA", "CEREJA", "CHERIMOIA",
+            "COCO", "CUPUACU", "DAMASCO", "FIGO", "FRAMBOESA", "GABIROBA", "GENIPAPO", "GOIABA", " GRAVIOLA", "GROSELHA",
+            "GUARANA", "JABUTICABA", "JACA", "JAMBO", "JATOBA", "JENIPAPO", "LARANJA", "LICHIA", "KIWI", "LIMAO", "MACA", "MAMAO",
+            "MARACUJA", "MANGA", "MORANGO", "TAMARINDO", "MARACUJA", "MELANCIA", "MELAO", "MEXERICA", "MIRTILO", "MORANGO", "PERA",
+            "PITAIA", "PESSEGO", "PEQUI", "PITANGA", "POMELO", "QUIWI", "ROMA", "UVA", "UMBU"
+        ]],
+
+        ["Carros", [
+            "AGILE", "ASTRA", "AZERA", "BELINA", "BLAZER", "BRAVO", "BRASILIA", "BRIO", "C3", "C4",
+            "CIVIC", "CLIO", "COBALT", "CORCEL", "COROLLA", "CORSA", "CRUZE", "CELTA", "ELECTRA", "ESCORT",
+            "ETIOS", "FIESTA", "FOCUS", "FUSION", "GOL", "SIENA", "IDEA", "I30", "JEEP", "JETTA", "KA", "KADETT",
+            "KANGOO", "KICKS", "KOMBI", "KUGA", "L200", "LOGAN", "MARCH", "MAREA", "MERIVA", "MONTANA", "MONZA", "UNO",
+            "OMEGA", "ONIX", "PALIO", "IPANAMERA", "PARATI", "PASSAT", "POINTER", "PRISMA", "PUNTO", "RAV4", "S10", "SANDERO",
+            "SANTANA", "SAVEIRO", "SIENA", "SONIC", "SOUL", "SPACEFOX", "SPIN", "STRADA", "SW4", "SYMBOL", "T-CROSS", "TAURUS",
+            "TIGUAN", "TORO", "TRACKER", "TRAFIC", "UP", "VERONA", "VERSA", "VOYAGE", "XEON", "XSARA", "ZAFIRA"
         ]]
         // Outros temas aqui...
     ];
