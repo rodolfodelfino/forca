@@ -5,7 +5,9 @@ body {
    }
 
 
-
+#princ{
+    max-height: 100%;
+}
 
 
 
@@ -16,10 +18,11 @@ h1 {
 
 .hangman img {
 
-    width: 400px;
+    width: 300px;
     height: auto;
     /* Aqui você pode definir estilos para a imagem da forca */
     max-width: 100%;
+
 }
 
 .word p {
@@ -50,3 +53,4 @@ button {
     border: none;
     cursor: pointer;
 }
+
