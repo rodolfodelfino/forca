@@ -7,9 +7,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const temas = [
         ["Personagens do Livro de Mormon", ["NÉFI", "NEFI", "LAMA", "MORONI", "ALMA", "ETER", "HELAMA", "MORMON", "NEFI",
-            "MORMON", "ETER", "ABINADI", "JAROM", "OMNI", "SARIA", "TEANCUM", "MORONI", "AMULOM", "AMALEQUE", "LAMONI", 
+            "MORMON", "ETER", "ABINADI", "JAROM", "OMNI", "SARIA", "TEANCUM", "MORONI", "AMULOM", "AMALEQUE", "LAMONI",
             "LEI", "ZENIFE", "CORIANTUMR", "SAM", "ENOS", "JACO", "SIBLOM", "CORIANTON", "LEMUEL", "MORIANTON", "MORMON",
-             "LAMONI", "SAMUEL", "LABAO", "ZORA", "SARIA", "ISMAEL", "JOSE", "AMARON", "QUEMIS", "ABINADOM", "AMALEQUI",
+            "LAMONI", "SAMUEL", "LABAO", "ZORA", "SARIA", "ISMAEL", "JOSE", "AMARON", "QUEMIS", "ABINADOM", "AMALEQUI",
             "ZEDEQUIAS", "BENJAMIM", "LIMI", "ZENIFE", "NOE", "AMULON", "GIDEAO", "ZEEZROM", "AMON", "CORIOR", "ZERAEMNA",
             "AMALIQUIAS", "PAORA", "TEANCUM", "ANTIPUS", "AMORON", "JESUS"
         ]],
@@ -94,6 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "img/forca4.png",
         "img/forca5.png",
         "img/forca6.png",
+        "img/forca7.jpg"
     ];
 
     function updateWordElement() {
@@ -140,14 +141,28 @@ document.addEventListener("DOMContentLoaded", function () {
         if (guessedWord.join("") === wordToGuess) {
             const victorySound = document.getElementById("victorySound");
             victorySound.play();
+            hangmanImage.src = hangmanImages[7];
             alert(`Parabéns! Você venceu! A palavra era: ${wordToGuess}`);
             setTimeout(function () {
                 victorySound.pause();
                 resetGame();
             }, 18000);
         } else if (guessesLeft === 0) {
+            // hangmanImage.src = hangmanImages[7];
+            // alert(`Você perdeu. A palavra era: ${wordToGuess}`);
+           
+            // resetGame();
+
+            const lostSound = document.getElementById("lostSound");
+            lostSound.play();
+            hangmanImage.src = hangmanImages[6];
             alert(`Você perdeu. A palavra era: ${wordToGuess}`);
-            resetGame();
+            setTimeout(function () {
+                lostSound.pause();
+                resetGame();
+            }, 10000);
+
+
         }
 
         letterInput.value = "";

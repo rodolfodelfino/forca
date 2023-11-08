@@ -57,3 +57,7 @@ button {
 #victorySound{
     display: none;
 }
+
+#lostSound{
+    display: none;
+}
