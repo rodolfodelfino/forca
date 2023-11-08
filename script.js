@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const themeSelect = document.getElementById("theme");
 
     const temas = [
+
+
         ["Personagens do Livro de Mormon", ["NÉFI", "NEFI", "LAMA", "MORONI", "ALMA", "ETER", "HELAMA", "MORMON", "NEFI",
             "MORMON", "ETER", "ABINADI", "JAROM", "OMNI", "SARIA", "TEANCUM", "MORONI", "AMULOM", "AMALEQUE", "LAMONI",
             "LEI", "ZENIFE", "CORIANTUMR", "SAM", "ENOS", "JACO", "SIBLOM", "CORIANTON", "LEMUEL", "MORIANTON", "MORMON",
@@ -14,18 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "AMALIQUIAS", "PAORA", "TEANCUM", "ANTIPUS", "AMORON", "JESUS"
         ]],
 
-        ["Animais", ["LEAO", "TIGRE", "ELEFANTE", "GIRAFA", "RINOCERONTE", "HIPOPOTAMO", "CAVALO", "CACHORRO",
-            "GATO", "PAPAGAIO", "PEIXE", "PINGUIM", "ORCA", "TUBARAO", "AGUIA", "URSO", "LOBO", "COBRA",
-            "GORILA", "MACACO", "AVESTRUZ", "COALA", "PANDA", "CAMELO", "GUEPARDO", "PUMA", "HIENA",
-            "FALCAO", "SAPO", "CROCODILO", "ESQUILO", "VACA", "PORCO", "BALEIA", "GOLFINHO", "TEXUGO",
-            "CASTOR", "ANTILOPE", "RATO", "FOCA", "OVELHA", "GAVIAO", "ZEBRA", "CISNE", "LINCE", "POLVO",
-            "LEOPARDO", "TARTARUGA", "CARANGUEJO", "POLVO", "POLVO", "LONTRA", "TEXUGO", "MORCEGO", "LAGARTO",
-            "ARANHA", "CAMARAO", "AGUIA", "TUCANO", "MORSA", "LEBRE", "PANTERA", "TAMANDUA", "PREGUICA",
-            "DONINHA", "CERVO", "FURAO", "GAFAHNHOTO", "LAGOSTA", "ESCORPIAO", "TARANTULA", "BESOURO", "JOANINHA",
-            "MOSQUITO", "PULGA", "CENTOPEIA", "POMBO", "PARDAL", "CANARIO", "CORUJA", "AVESTRUZ", "PERU", "SAGUI",
-            "TOUPEIRA", "ARARA", "HIPOPOTAMO", "RAPOSA", "ESQUILO", "DONINHA", "CANGURU", "MANGUSTO", "ARAPUCA",
-            "NAMBU", "OVELHA", "JACARE", "PARDAL", "ARANHA", "URSO", "BESOURO", "GAZELA"
-        ]],
+       
 
         ["Personagens da Bíblia", [
             "ADAO", "EVA", "CAIM", "ABEL", "SET", "ENOS", "CENA", "MAALALEL", "JAREDE", "ENOQUE",
